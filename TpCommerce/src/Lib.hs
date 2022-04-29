@@ -1,6 +1,2 @@
-module Lib
-    ( someFunc
-    ) where
-
-someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+siguiente :: Num a => a -> a
+siguiente numero = numero + 1
